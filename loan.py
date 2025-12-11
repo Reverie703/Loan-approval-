@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load dataset
-file_path = "C:\Users\ferna\OneDrive\Desktop\SE Loan Approval\dataset"
+file_path = "dataset/loan_approval_dataset.csv"
 data = pd.read_csv(file_path)
 
 # Clean column names (remove leading/trailing spaces)
